@@ -29,7 +29,7 @@ let playerOTurn = false
 const playerOPicks = []
 
 // function to prompt users, asking what position they want to take
-function turn() {
+function turn() {                                                      
   if (playerXTurn === true) {
     // prompt player 1 to pick their position
     let position = prompt("Player 1, pick a open position.")
